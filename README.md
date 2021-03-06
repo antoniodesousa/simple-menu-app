@@ -5,7 +5,7 @@ A simple page with a menu and a sticky footer.
 ## Technical details
 
 This application makes use of Webpack, Babel and Eslint.
-The code base is writing in Typescript and all the styles in SASS.
+The code base is writing in Typescript and all the styles in CSS.
 The application should work correctly in the latest versions of Chrome, Firefox and Edge.
 
 ## Set up the application

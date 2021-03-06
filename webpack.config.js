@@ -25,11 +25,10 @@ module.exports = {
 			loader: 'babel-loader'
 		 },
 		 {
-			test: /\.(css|scss)$/u,
+			test: /\.css$/u,
 			use: [
 			   MiniCssExtractPlugin.loader,
-			   'css-loader',
-			   'sass-loader'
+			   'css-loader'
 			]
 		 },
 		 {
@@ -43,7 +42,7 @@ module.exports = {
 	  ]
    },
    resolve: {
-	  extensions: ['.ts', '.tsx', '.js', '.scss', '.css']
+	  extensions: ['.ts', '.tsx', '.js', '.css']
    },
    plugins: [
 	  new CleanWebpackPlugin({
