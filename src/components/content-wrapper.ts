@@ -14,7 +14,7 @@ const contentWrapper = (): HTMLElement => {
 
 function generateContent(): string {
 	const text = [];
-	let x = 30;
+	let x = 20;
 
 	while (--x) {
 		text.push(loremIpsum[Math.floor(Math.random() * loremIpsum.length)]);

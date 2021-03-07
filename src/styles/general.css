@@ -8,3 +8,9 @@ html, body {
 	font-size: 14px;
 	background-color: #ddd;
 }
+
+#root {
+	display: flex;
+	flex-flow: column nowrap;
+	min-height: 100%;
+}
