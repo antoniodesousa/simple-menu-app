@@ -22,7 +22,9 @@
 }
 
 .menu-item.show .menu-dropdown {
-	display: block;
+	visibility: visible;
+	opacity: 1;
+	transition: opacity .2s linear;
 }
 
 .menu-item:hover {
@@ -36,11 +38,13 @@
 }
 
 .menu-dropdown {
-	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
 	min-width: 160px;
 	box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility .2s linear, opacity .2s linear;
 	z-index: 1;
 }
 
